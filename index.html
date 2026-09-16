@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GARUD | Protect Before Payment</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="garud.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background decoration -->
+    <div class="background-circle circle-one"></div>
+    <div class="background-circle circle-two"></div>
+
+    <!-- Navigation Bar -->
+    <header>
+
+        <div class="logo">
+            <div class="logo-icon">🦅</div>
+
+            <div>
+                <h2>GARUD</h2>
+                <p>Payment Security</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Main Home Section -->
+    <main id="home">
+
+        <section class="hero">
+
+            <!-- Left side -->
+            <div class="hero-content">
+
+                <div class="badge">
+                    🛡️ ON-DEVICE SECURITY
+                </div>
+
+                <h1>
+                    Protect
+                    <span>Before</span>
+                    Payment.
+                </h1>
+
+                <p class="description">
+                    GARUD is a real-time security layer designed to
+                    detect suspicious UPI payments and scam messages
+                    before you authorize the transaction.
+                </p>
+
+
+                <!-- Buttons -->
+                <div class="button-container">
+
+                    <button class="primary-btn" onclick="checkSMS()">
+                        📱 Check SMS
+                    </button>
+
+                    <button class="secondary-btn" onclick="checkQR()">
+                        🔳 Check QR
+                    </button>
+
+                </div>
+
+
+                <!-- Features -->
+                <div class="features">
+
+                    <div class="feature">
+                        <div class="feature-icon">⚡</div>
+
+                        <div>
+                            <h3>Real-Time</h3>
+                            <p>Instant risk analysis</p>
+                        </div>
+                    </div>
+
+
+                    <div class="feature">
+                        <div class="feature-icon">🔒</div>
+
+                        <div>
+                            <h3>Privacy First</h3>
+                            <p>Local-first processing</p>
+                        </div>
+                    </div>
+
+
+                    <div class="feature">
+                        <div class="feature-icon">🧠</div>
+
+                        <div>
+                            <h3>AI Powered</h3>
+                            <p>Smart scam detection</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Right side -->
+            <div class="hero-visual">
+
+                <div class="security-card">
+
+                    <div class="card-header">
+
+                        <div class="status-dot"></div>
+
+                        <span>GARUD SECURITY</span>
+
+                        <span class="live">● LIVE</span>
+
+                    </div>
+
+
+                    <div class="shield">
+
+                        <div class="shield-inner">
+                            🛡️
+                        </div>
+
+                    </div>
+
+
+                    <h2>
+                        Your payment.
+                        <br>
+                        <span>Protected.</span>
+                    </h2>
+
+
+                    <div class="risk-info">
+
+                        <div>
+                            <p>RISK ENGINE</p>
+                            <strong>READY</strong>
+                        </div>
+
+                        <div class="risk-status">
+                            ✓
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Floating cards -->
+
+                <div class="floating-card card-one">
+                    <span>✓</span>
+                    <div>
+                        <strong>Local AI</strong>
+                        <small>Privacy Protected</small>
+                    </div>
+                </div>
+
+
+                <div class="floating-card card-two">
+                    <span>🛡️</span>
+                    <div>
+                        <strong>Pre-Payment</strong>
+                        <small>Protection Active</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About section -->
+        <section id="about" class="about-section">
+
+            <div class="about-title">
+                <p class="small-title">HOW GARUD WORKS</p>
+
+                <h2>
+                    Detect. Analyze.
+                    <span>Protect.</span>
+                </h2>
+            </div>
+
+
+            <div class="steps">
+
+                <div class="step">
+                    <div class="step-number">01</div>
+
+                    <h3>Capture</h3>
+
+                    <p>
+                        Analyze a suspicious SMS screenshot
+                        or UPI QR code.
+                    </p>
+                </div>
+
+
+                <div class="step">
+                    <div class="step-number">02</div>
+
+                    <h3>Analyze</h3>
+
+                    <p>
+                        AI and security rules identify
+                        suspicious signals.
+                    </p>
+                </div>
+
+
+                <div class="step">
+                    <div class="step-number">03</div>
+
+                    <h3>Protect</h3>
+
+                    <p>
+                        GARUD generates a risk score and
+                        explains potential dangers.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">
+            🦅 GARUD
+        </div>
+
+        <p>
+            Real-Time • Local • Explainable
+        </p>
+
+        <p class="copyright">
+            © 2026 GARUD
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="garud.js"></script>
+
+</body>
+
+</html>
