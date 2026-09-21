@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GARUD | SMS Security Check</title>
+  <link rel="stylesheet" href="sms.css">
+</head>
+<body>
+  <main class="page">
+    <a class="back" href="index.html">← Back to GARUD</a>
+    <section class="card">
+      <div class="icon">📱</div>
+      <p class="eyebrow">GARUD SMS SCANNER</p>
+      <h1>Check a suspicious <span>SMS</span></h1>
+      <p class="subtitle">Upload a screenshot of the message and GARUD will check common scam indicators.</p>
+
+      <label class="upload" for="smsFile">
+        <span class="upload-icon">⬆</span>
+        <strong>Choose SMS screenshot</strong>
+        <small>PNG, JPG or JPEG</small>
+      </label>
+      <input id="smsFile" type="file" accept="image/png,image/jpeg,image/jpg">
+
+      <div id="previewBox" class="preview hidden">
+        <img id="preview" alt="SMS screenshot preview">
+        <div>
+          <strong id="fileName">Selected image</strong>
+          <button id="analyzeBtn" class="primary" type="button">Analyze SMS</button>
+        </div>
+      </div>
+
+      <div id="result" class="result hidden"></div>
+    </section>
+  </main>
+  <script src="sms.js"></script>
+</body>
+</html>
