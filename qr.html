@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GARUD | QR Security Check</title>
+  <link rel="stylesheet" href="qr.css">
+</head>
+<body>
+  <main class="page">
+    <a class="back" href="index.html">← Back to GARUD</a>
+    <section class="card">
+      <div class="icon">🔳</div>
+      <p class="eyebrow">GARUD QR SCANNER</p>
+      <h1>Check a suspicious <span>UPI QR</span></h1>
+      <p class="subtitle">Upload a QR screenshot or image to demonstrate GARUD's pre-payment security workflow.</p>
+
+      <label class="upload" for="qrFile">
+        <span class="upload-icon">⬆</span>
+        <strong>Choose QR image</strong>
+        <small>PNG, JPG or JPEG</small>
+      </label>
+      <input id="qrFile" type="file" accept="image/png,image/jpeg,image/jpg">
+
+      <div id="previewBox" class="preview hidden">
+        <img id="preview" alt="QR image preview">
+        <div>
+          <strong id="fileName">Selected image</strong>
+          <button id="analyzeBtn" class="primary" type="button">Analyze QR</button>
+        </div>
+      </div>
+
+      <div id="result" class="result hidden"></div>
+    </section>
+  </main>
+  <script src="qr.js"></script>
+</body>
+</html>
